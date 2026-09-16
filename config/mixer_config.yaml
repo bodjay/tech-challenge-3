@@ -1,25 +1,14 @@
 # Gerado por calibrate.py
-# Cole este conteudo em config/mixer_config.yaml
 
-mixer_roi: [189, 170, 1062, 622]
+mixer_roi: [0, 0, 0, 0]
 
 zones:
-  eq_knobs:   [426, 173, 818, 342]
-  faders:     [508, 438, 727, 547]
-  crossfader: [512, 550, 712, 599]
+  eq_knobs:   [0, 0, 0, 0]
+  faders:     [0, 0, 0, 0]
+  crossfader: [0, 0, 0, 0]
   headphones: [0, 0, 0, 0]
 
 channels:
-  - id: "1"
-    fader_roi: [519, 454, 566, 539]
-    vu_roi:    [566, 454, 582, 538]
-    clip_roi:  [567, 453, 584, 471]
-    jog_roi:   [195, 282, 459, 544]
-  - id: "2"
-    fader_roi: [660, 439, 716, 546]
-    vu_roi:    [641, 437, 660, 548]
-    clip_roi:  [643, 456, 660, 473]
-    jog_roi:   [772, 296, 1058, 570]
 
 master:
   fader_roi: [0, 0, 0, 0]
@@ -37,8 +26,8 @@ thresholds:
 
 anomalies:
   MASTER_OFF:          {enabled: false}
-  CHANNEL_CLIPPING:    {enabled: true}
-  ALL_CHANNELS_MUTED:  {enabled: true}
-  BEAT_MISMATCH:       {enabled: true}
-  ABRUPT_MOVEMENT:     {enabled: false}
-  EXTENDED_INACTIVITY: {enabled: true}
+  CHANNEL_CLIPPING:          {enabled: true}
+  ALL_CHANNELS_MUTED:          {enabled: true}
+  BEAT_MISMATCH:          {enabled: true}
+  ABRUPT_MOVEMENT:          {enabled: false}
+  EXTENDED_INACTIVITY:          {enabled: true}
